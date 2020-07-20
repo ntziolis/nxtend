@@ -2,5 +2,13 @@
   "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
   "name": "ionic-angular",
   "version": "0.0.1",
-  "schematics": {}
+  "schematics": {
+    "init": {
+      "factory": "./src/schematics/init/schematic",
+      "schema": "./src/schematics/init/schema.json",
+      "description": "Initialize the @nxtend/ionic-angular plugin.",
+      "aliases": ["ng-add"],
+      "hidden": true
+    },
+  }
 }
