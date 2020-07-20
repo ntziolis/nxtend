@@ -31,6 +31,13 @@
     "capacitor-e2e": {
       "tags": [],
       "implicitDependencies": ["capacitor"]
+    },
+    "ionic-angular": {
+      "tags": []
+    },
+    "ionic-angular-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ionic-angular"]
     }
   },
   "tasksRunnerOptions": {
